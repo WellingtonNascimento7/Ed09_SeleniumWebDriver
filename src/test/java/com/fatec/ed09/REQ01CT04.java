@@ -35,10 +35,7 @@ public class REQ01CT04 {
 
 	@Test
 	public void rEQ01CT04() {
-//	  System.setProperty("webdriver.chrome.driver", "browserDriver/chromedriver.exe");
-//		driver = new ChromeDriver();
-//		js = (JavascriptExecutor) driver;
-//		vars = new HashMap<String, Object>();
+
 		driver.get("https://ts-scel.herokuapp.com/login");
 		driver.manage().window().setSize(new Dimension(800, 860));
 		driver.findElement(By.name("username")).click();

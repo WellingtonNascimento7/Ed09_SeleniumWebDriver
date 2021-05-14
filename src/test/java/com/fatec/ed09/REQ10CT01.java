@@ -12,8 +12,6 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.JavascriptExecutor;
 import java.util.*;
 
-
-
 public class REQ10CT01 {
   private WebDriver driver;
   private Map<String, Object> vars;

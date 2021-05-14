@@ -25,10 +25,10 @@ public class REQ07CT01 {
 		vars = new HashMap<String, Object>();
 	}
 
-//  @After
-//  public void tearDown() {
-//    driver.quit();
-//  }
+	@After
+	public void tearDown() {
+		driver.quit();
+	}
 
 	public String waitForWindow(int timeout) {
 		try {
